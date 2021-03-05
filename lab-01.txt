@@ -1,0 +1,29 @@
+Laboratorio 1. Practicando modulos de ES6
+
+1. Crear la siguiente estructura de carpetas
+  src/
+    lib/
+      utils.js
+      validations.js
+  index.js (este ya existe)
+
+2. Crear en /src/lib/utils.js las funciones:
+  - sort (array) 
+    -> Usar lodash
+  - customSort (array)
+    -> Investigar e implementar el algoritmo de ordenamiento por burbuja o "bubble sort".
+  - log (obj)
+    -> Imprimir en consola el objeto recibido.
+3. Crear en /src/lib/validations.js las funciones:
+  - isFunction (obj) 
+    -> Validar que el objeto recibido sea una funcion. Retornar verdadero o falso segun sea el caso.
+  - containsProperty (obj, PropertyName)
+    -> Validar que el objeto recibido contenta la propiedad nombrada. Retornar verdadero o falso segun sea el caso.
+4. Invocar desde /index.js las funciones anteriormente creadas con datos de prueba propios usando la funcion log() para imprimir los resultados.
+
+Notas:
+* Dichas funciones tienen que ser puras.
+* Asi mismo exportar de cada modulo dichas funciones mediante
+  export {func1, funct2, funcN}
+
+
